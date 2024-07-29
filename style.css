@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #2064df, #52AD55);
+}
+
+.top-container {
+    position: relative;
+    padding-top: 50px;
+}
+
+h1 {
+    color:white;
+    font-size: 3.5rem;
+    font-family: "Playwrite FR Moderne", cursive;
+}
+
+h2 {
+    color:#52AD55;
+    font-family: "Noto Serif", serif;
+    font-size: 2.0rem;
+    font-weight: normal;
+}
+
+.title-h2 {
+    color: black;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.img2 {
+    border-radius: 50%;
+}
+
+.intro {
+    margin: auto;
+    width: 50%;
+}
+
+
+.education {
+    margin-top: 100px;
+}
+
+p{
+    margin-top: 0;
+    width: 100%
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: #52AD55;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 24px;
+    margin: 10px 20px;
+    transition: all 0.5ms linear;
+}
+
+.btn:hover {
+    background: linear-gradient(300deg, #2064df, #52AD55);
+    color:white;
+}
+
+.bottom-container {
+    background-color:#52AD55;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: black;
+    transition: all 0.5ms linear;
+}
+
+.copyright {
+    color: white;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+
+
