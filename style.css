@@ -67,11 +67,13 @@ p{
     background-color: #52AD55;
     color: white;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 5px;
+    border: none;
     padding: 10px 20px;
     font-size: 24px;
     margin: 10px 20px;
     transition: all 0.5ms linear;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -80,13 +82,16 @@ p{
 }
 
 .bottom-container {
-    background-color:#52AD55;
+    background: linear-gradient(300deg, #2064df, #52AD55);
+    width: 100%;
+    padding: 20px 0px;
 }
 
 a{
     text-decoration: none;
     color: white;
     margin: 10px 20px;
+    transition: color 0.3s ease;
 }
 
 a:hover {
@@ -96,8 +101,9 @@ a:hover {
 
 .copyright {
     color: white;
-    padding: 20px 0;
     font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 
